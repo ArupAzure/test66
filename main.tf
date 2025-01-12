@@ -11,7 +11,7 @@ terraform {
 provider "azurerm" {
 # This is only required when the User, Service Principal, or Identity running Terraform lacks the permissions to register Azure Resource Providers.
   features {}
-  subscription_id = "cc9a57b5-2fb8-42dc-b0be-2a8c72b1f234"
+  #subscription_id = "cc9a57b5-2fb8-42dc-b0be-2a8c72b1f234"
 }
 
 # Create a resource group
