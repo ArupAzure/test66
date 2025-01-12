@@ -35,7 +35,7 @@ variable "resource_group_name_prefix" {
 variable "resource_group_location" {
   type        = string
   default     = "eastus"
-  description = "Location of the resource group."
+  description = "Location of the resource group"
 
 }
 
